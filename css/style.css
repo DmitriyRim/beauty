@@ -268,7 +268,7 @@ ul {
   max-width: 237px;
   width: 100%;
 }
-.footer__links > * {
+.footer__links > li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -277,6 +277,9 @@ ul {
   height: 45px;
   border: 2px solid #66C05D;
   border-radius: 50%;
+}
+.footer__links > li:hover {
+  box-shadow: 0px 5px 10px 2px rgba(34, 80, 68, 0.2);
 }
 .footer__link {
   text-align: center;
