@@ -19,7 +19,8 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
-  color: #333;
+  color: #333333;
+  background: #EFEFEF;
 }
 
 a:link {
@@ -62,12 +63,8 @@ ul {
 }
 
 .btn__light {
-  color: #fff;
-  border-color: #fff;
-}
-
-.nav {
-  background: #EFEFEF;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .menu {
@@ -86,12 +83,17 @@ ul {
   color: #66C05D;
 }
 
+.header {
+  background-color: #ffffff;
+}
+.header__top-bar {
+  border-bottom: 1px solid #EFEFEF;
+}
 .header__top-container {
   padding: 20px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #EFEFEF;
 }
 .header__call > span {
   margin-right: 35px;
@@ -124,7 +126,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff;
+  color: #ffffff;
   padding: 0 10px;
 }
 .banner__text-box {
